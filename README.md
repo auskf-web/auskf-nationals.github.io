@@ -7,6 +7,6 @@ Design adapted from:
 * Free for personal and commercial use under the CCA 3.0 license ([html5up.net/license][4])
 
 [1]: https://jekyllrb.com/
-[2]: www.auskf-nationals.com
-[3]: html5up.net
-[4]: html5up.net/license
+[2]: http://www.auskf-nationals.com
+[3]: https://html5up.net/twenty
+[4]: https://html5up.net/license

@@ -11,3 +11,30 @@ baseurl: ""
 url: "http://locahost:4000" # the base hostname & protocol for your site
 
 markdown: kramdown
+
+# Tournament configuration
+tournament_year: 2020
+tournament_date: Juy 17 - 19, 2020
+tournament_date_with_day: Friday, July 17, 2020 - Sunday, July 19, 2020
+tournament_location_city_state: Detroit, Michigan
+age_deterimination_date: January 1, 2020
+shinpan_registration_deadline: February 29th, 2020
+entry_fee: $50 per participant
+
+# If venue_determined is false ensure tournament_location_city_state above is correct because that will be displayed
+venue_determined: true
+
+# These fields are only displayed if venue_determined = true
+venue_address_1: University of Michigan-Dearborn Fieldhouse / Ice Arena
+venue_address_2: 4901 Evergereen Rooad
+venue_address_3: Dearborn, MI 48128
+venue_address_4: <a href="https://goo.gl/maps/xEdHhw2DNsXBDZV39" target="blank">Google Maps</a> /  <a href="http://athletics.umdearborn.edu/landing/index" target="blank">Dearborn Ahtletics</a>
+
+# assets/banner.jpg
+# desciption is of $description by
+banner_url: https://pixabay.com/photos/monument-statue-detroit-3736541/
+banner_description: the Russell A. Alger Memorial Fountain
+banner_photographer: Alberto Adán
+
+# If show_save_the_date is true ensure {{ site.tournament_year }}-welcome.pdf exists in the assets folder
+show_save_the_date: false

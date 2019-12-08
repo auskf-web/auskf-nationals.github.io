@@ -5,39 +5,38 @@ layout: landing-page
 <article id="main">
 
 	<header class="special container">
-		<b><a href="/results.html">Official results are now available!</a></b>
-		<br>
-		<br>
-		<b>Events</b><br>
-		2017 AUSKF National Championships<br>
-		7th AUSKF Junior Open National Championships<br>
-		<br>
-		<b>Dates</b><br>
-		Thursday, June 22 - Sunday June 25, 2017<br><br>
+		<!-- <b><a href="/results.html">Official results are now available!</a></b><br> -->
 		
-		<strong>Location</strong><br>
-		Independence High School<br>
-		1776 Educational Park Drive<br>
-		San Jose, California 95133<br>
-		<a href="https://goo.gl/maps/ScoUrv4tDot" target="blank">Google Maps</a><br><br>
-		
-		<b>
-		NOTE: This high school campus is rather large. We recommend using the address for the <br>
-		Aquatic Center when navigating to the gym: <a href="https://goo.gl/maps/1CoNDRiHzJS2">629 North Jackson Ave</a><br>
-		</b>
+		<b>Dates</b><br>	
+		<b>{{ site.tournament_date_with_day }}</b> - Tournament<br>
 		<br>
 		
-		Visit the <a href="/info.html">Info page</a> for more information.<br>
+		<strong>Tournament Venue</strong><br>
+		{% if site.venue_determined == true %}
+			{{ site.venue_address_1 }}<br>
+			{{ site.venue_address_2 }}<br>
+			{{ site.venue_address_3 }}<br>
+			{{ site.venue_address_4 }}<br>
+		{% else %}
+			Venue TBD<br>
+			{{ site.tournament_location_city_state }}<br>
+		{% endif %}
+		<br>
+		<br>
+		
+		Visit the <a href="/info.html">Info page</a> for more information.<br><br>
+		
 		<!-- For registration instructions please see the <a href="/register.html">Register page</a>.<br> -->
-		For travel and accommodations information please see the <a href="/travel.html">Travel page</a>. <br><br>
+		
+		For travel and accommodations information please see the <a href="/travel.html">Travel page</a>.<br><br>
 
-		Please email <a href="mailto:info@auskf-nationals.com?Subject=AUSKF%20Nationals%202017" target="_top">info@auskf-nationals.com</a> for more information.<br><br>
+		Please email <a href="mailto:info@auskf-nationals.com?Subject=AUSKF%20Nationals%20{{ site.tournament_year }}" target="_top">info@auskf-nationals.com</a> for more information.<br><br>
 		
 		<a href="https://www.facebook.com/AUSKFNationalChampionships/" target="blank">Follow AUSKF National Championships on Facebook.</a>
 		
 		<br><br>
 		
-		<a href="https://pixabay.com/en/san-jose-state-university-california-106865/" target="blank">Banner photo</a> of San Jose University California Tower Hall courtesy of David Mark.
+		<a href="{{ site.banner_url }}" target="blank">Banner photo</a> of {{ site.banner_description }} courtesy of {{ site.banner_photographer }}.
 	</header>
 
 </article>

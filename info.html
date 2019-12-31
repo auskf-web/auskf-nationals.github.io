@@ -29,25 +29,30 @@ th, td {
 			<section>
 				This page contains information on:
 				<ul style="padding-left:2em; padding-top:0.5em; margin-bottom: 20px;">
+					<li><a href="#pdf">Key Info PDF</a></li>
 					<li><a href="#date">Date</a></li>
 					<li><a href="#location">Location</a></li>
 					<li><a href="#age">Note on age restrictions</a></li>
+					<li><a href="#format">Tournament format</a></li>
+					<li><a href="#rules">New shiai rules</a></li>
+					<li><a href="#bento">Food and beverages</a></li>
 
 					<!--
 					<li><a href="#map">Map of tournament site facilities</a></li>
-					<li><a href="#bento">Food and beverages</a></li>
-					<li><a href="#format">Tournament format</a></li>
 					<li><a href="#sayonara">Sayonara Party</a></li>
 					-->
 						
-					<!-- <li><a href="#shinai">Shinai Check-In</a></li> -->
+					<li><a href="#shinai">Shinai Check-In</a></li>
 					<li><a href="#questions">Additional questions?</a></li>
 				</ul>
+				
+				<a name="pdf"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
+				<header style="margin-bottom: 8px;"><h3><b>Key Info PDF</b></h3></header>
+				Please refer to this <a href="assets/A3.2020 AUSKF National Championships Prelim Info R7.pdf" target=_blank>PDF</a> that covers key information for the AUSKF Nationals {{ site.tournament_year }}.<br><br>
 						
 				<a name="date"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header style="margin-bottom: 8px;"><h3><b>Date</b></h3></header>
-				<ul style="padding-left:2em;">
-					<li>{{ site.tournament_date_with_day }} - Tournament</li>
+				{{ site.tournament_date_with_day }} - Tournament<br><br>
 					
 					<!--
 					<ul style="padding-left:3em; margin-bottom: 10px;">
@@ -62,23 +67,26 @@ th, td {
 						<li>9:00am – 3:00pm</li>
 				    </ul>
 					-->
-				</ul>
 				
 				<a name="location"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header style="margin-bottom: 8px;"><h3><b>Location</b></h3></header>
-				<ul style="list-style-type:none; padding-left:1em">
-					{% if site.venue_determined == true %}
-						{{ site.venue_address_1 }}<br>
-						{{ site.venue_address_2 }}<br>
-						{{ site.venue_address_3 }}<br>
-						{{ site.venue_address_4 }}<br>
-					{% else %}
-						Venue TBD<br>
-						{{ site.tournament_location_city_state }}<br>
-					{% endif %}
-				</ul>
+				{% if site.venue_determined == true %}
+					{{ site.venue_address_1 }}<br>
+					{{ site.venue_address_2 }}<br>
+					{{ site.venue_address_3 }}<br>
+					{{ site.venue_address_4 }}<br>
+				{% else %}
+					Venue TBD<br>
+					{{ site.tournament_location_city_state }}<br>
+				{% endif %}
+				<br>
 				
-				<!--
+				<a name="age"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
+				<header style="margin-bottom: 8px;"><h3><b>Note on age restrictions</b></h3></header>
+				January 1, {{ site.tournament_year }} will be the date for all birthdates. Your age on January 1, {{ site.tournament_year }} will be your age for the tournament.<br><br>
+				
+				<a name="format"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
+				<header style="margin-bottom: 8px;"><h3><b>Tournament format</b></h3></header>
 				<b>Individual Divisions</b> - restrictions for each division, if any, are within parentheses
 				<ul style="padding-left:2em; padding-top:0.2em; margin-bottom: 20px;">					
 					<li><b>Men’s Individual</b> - max 7 registered participants</li>
@@ -87,7 +95,8 @@ th, td {
 					<li><b>Junior Youth Boy’s Individual (ages 12-15)</b> - max 5 registered participants</li>
 					<li><b>Senior Youth Girl’s Individual (ages 16-18)</b> - max 5 registered participants</li>
 					<li><b>Junior Youth Girl’s Individual (ages 12-15)</b> - max 5 registered participants</li>
-					<li><b>Seniors Division Individual (ages 50+, 3-dan and up)</b> - max 5 registered participants</li>
+					<li><b>Seniors Men's (ages 50+, 3-dan and up)</b> - max 5 registered participants</li>
+					<li><b>Seniors Women's (ages 45+, 3-dan and up)</b> - max 5 registered participants</li>
 					<li><b>Mudansha Division (men+women combined division, ages 19+, 1 kyu and lower)</b> - max 5 registered participants</li>
 				</ul>
 				
@@ -97,14 +106,25 @@ th, td {
 					<li><b>Women's Team</b> - 5 participants, max 7 registered team members</li>
 					<li><b>Senior Youth Boy’s Team</b> - 3 participants, max 5 registered team members</li>
 					<li><b>Junior Youth Boy’s Team</b> - 3 participants, max 5 registered team members</li>
-					<li><b>Senior/Junior Youth Girl’s Team</b> (18 and under) - 3 participants, max 5 registered team members</li>
+					<li><b>Senior Youth Girl’s Team</b> - 3 participants, max 5 registered team members</li>
+					<li><b>Junior Youth Girl’s Team</b> - 3 participants, max 5 registered team members</li>
 					<li><b>Senior’s Team</b> - 3 participants, max 5 registered team members</li>
 					<li><b>Mudansha Team</b> - 3 participants, max 5 registered team members</li>
 				</ul>
 				
-				<b>Cost</b> - for each participant registered in the individual division there is a registration fee of <strong>$100</strong>. For each participant registered for the team divisions, there is a registration fee of <strong>$100</strong>. So if a player is registered for an individual and a team division the total registration fee for that participant will be $200.<br>
-				
+				<b>Cost</b> - for each participant registered in the individual division there is a registration fee of <strong>$100</strong>. For each participant registered for the team divisions, there is a registration fee of <strong>$100</strong>. So if a player is registered for an individual and a team division the total registration fee for that participant will be $200.<br><br>
+					
+				<a name="rules"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
+				<header style="margin-bottom: 8px;"><h3><b>New Shiai Rules</b></h3></header>
+				<ul style="padding-left:2em; padding-top:0.2em; margin-bottom: 20px;">					
+					<li>Policy and Procedures Appendix B section 15.02.00 states: All competitors must be on the registration census of the 
+					member in good standing one year prior to the tournament and their dues paid by March 31st of the tournament year.</li><br>
+					<li>Competitors in the following divisions must be a registered AUSKF member in good standing for three (3) years prior to the date of the 2020 AUSKF National Championships: Men’s Individual, Men's Team, Women’s Individual, Women's Team.</li><br>
+					<li>All individual championships will utilize a “double-elimination” seeding format in which each player participates in an initial “seeding” round to determine their placement (either first or second) in the championship round. In the event, there is an odd number of participants, a random participant shall be automatically placed in the seeding round.</li>
+				</ul>
 				<br>
+									
+				<!--
 					
 				<b>Shiai Rules</b>
 				<ul style="padding-left:2em; padding-top:0.2em; margin-bottom: 20px;">					
@@ -135,19 +155,13 @@ th, td {
 				<br>
 				<b>NOTE: This high school campus is rather large. We recommend using the address for the Aquatic Center when navigating to the gym: <a href="https://goo.gl/maps/1CoNDRiHzJS2">629 North Jackson Ave</a>.</b><br>
 				<p style="text-align:center;"><img src="assets/ihs_map.jpg"></p>
-					
-				<br><a name="bento"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
-				<header style="margin-bottom: 8px;"><h3><b>Food and beverages</b></h3></header>
-				<ul style="padding-left:2em; padding-top:0.2em; margin-bottom: 20px;">					
-					<strong>Bento boxes</strong> can be pre-ordered for each of the four days of competition (Thursday - Sunday). 
-					Each <strong>bento costs $10 per day</strong> (e.g. a competitor requesting a bento for all four days will pay $40 for bento). 
-					Beverages will not be provided, but the tournament host site, Independence High School, will be selling beverages and some food.
-				</ul>	
 				-->
-					
-				<a name="age"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
-				<header style="margin-bottom: 8px;"><h3><b>Note on age restrictions</b></h3></header>
-				January 1, {{ site.tournament_year }} will be the date for all birthdates. Your age on January 1, {{ site.tournament_year }} will be your age for the tournament.<br><br>
+						
+				<a name="bento"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
+				<header style="margin-bottom: 8px;"><h3><b>Food and beverages</b></h3></header>
+				<strong>Bento boxes</strong> can be pre-ordered for each of the {{ site.number_of_days_order_bento }} days of competition ({{ site.range_of_days_for_bento }}). 
+				Each <strong>bento costs {{ site.cost_bento_per_day }} per day</strong> (e.g. a competitor requesting a bento for all {{ site.number_of_days_order_bento }} days will pay {{ site.cost_bento_if_all_days }} for bento). 
+				Beverages will not be provided.<br><br>
 				
 				<!--
 				<br><a name="format"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
@@ -174,14 +188,12 @@ th, td {
 				</ul>
 				-->
 				
-				<!--
 				<a name="shinai"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header style="margin-bottom: 8px;"><h3><b>Shinai Check-In</b></h3></header>
 				Competitor's shinais for the AUSKF National Championships must be inspected and certified before the competition to ensure they meet a specific set of requirements. 
-				Please refer to this <a href="assets/shinai.pdf" target=_blank>PDF</a> that describes all measurements that will be verified by the shinai check-in staff. 
-				Shinai inspection will not be performed at the AUSKF Junior Open National Championships; inspection and certification will be the responsibility of each participating federation.
+				Please refer to this <a href="assets/2020-Shinai-Regulations.pdf" target=_blank>PDF</a> that describes all measurements that will be verified by the shinai check-in staff. 
+				<!-- Shinai inspection will not be performed at the AUSKF Junior Open National Championships; inspection and certification will be the responsibility of each participating federation. -->
 				<br><br>
-				-->
 				
 				<a name="questions"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header style="margin-bottom: 8px;"><h3><b>Additional questions?</b></h3></header>

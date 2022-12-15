@@ -18,7 +18,7 @@ tournament_date: June 30 - July 2, 2023
 tournament_date_with_day: Friday, June 30, 2022 - Sunday, July 2, 2023
 tournament_location_city_state: Rochester, MI
 age_deterimination_date: January 1, 2023
-shinpan_registration_deadline: February 29th, 2020
+shinpan_registration_deadline: February 28th, 2023
 entry_fee: $50 per participant
 
 # If venue_determined is false ensure tournament_location_city_state above is correct because that will be displayed

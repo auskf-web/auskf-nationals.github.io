@@ -15,7 +15,7 @@ markdown: kramdown
 # Tournament configuration
 tournament_year: 2023
 tournament_date: June 30 - July 2, 2023
-tournament_date_with_day: Friday, June 30, 2022 - Sunday, July 2, 2023
+tournament_date_with_day: Friday, June 30, 2023 - Sunday, July 2, 2023
 tournament_location_city_state: Rochester, MI
 age_deterimination_date: January 1, 2023
 shinpan_registration_deadline: February 28th, 2023

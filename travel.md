@@ -4,12 +4,16 @@ title: Travel
 ---
 
 ### Airport Destination
-> Detroit Metropolitan Wayne County Airport - DTW
+<div markdown="1" class="indented">
+**Detroit Metropolitan Wayne County Airport - DTW**
+</div>
 
 ### Official Hotels
-> Auburn Hills Marriott Pontiac and Courtyard by Marriott (Auburn Hills / Pontiac)
-> 3555 Centerpoint Pkwy  
-> Pontiac, MI 48341  
-> [Google Maps](https://goo.gl/maps/8sTKxb1XGwuwoo2MA)
->
-> Official Group rate code coming soon! First come, first served.
+<div markdown="1" class="indented">
+**Auburn Hills Marriott Pontiac and Courtyard by Marriott (Auburn Hills / Pontiac)**  
+3555 Centerpoint Pkwy  
+Pontiac, MI 48341  
+[Google Maps](https://goo.gl/maps/8sTKxb1XGwuwoo2MA)
+
+Official Group rate code coming soon! First come, first served.
+</div>

@@ -13,28 +13,28 @@ url: "http://locahost:4000" # the base hostname & protocol for your site
 markdown: kramdown
 
 # Tournament configuration
-tournament_year: 2023
-tournament_date: June 30 - July 2, 2023
-tournament_date_with_day: Friday, June 30, 2023 - Sunday, July 2, 2023
-tournament_location_city_state: Rochester, MI
-age_deterimination_date: January 1, 2023
-shinpan_registration_deadline: February 28th, 2023
-entry_fee: $50 per participant
+tournament_year: 2026
+tournament_date: July 3 - July 5, 2026
+tournament_date_with_day: Friday, July 3, 2026 - Sunday, July 5, 2026
+tournament_location_city_state: Las Vegas, NV
+age_deterimination_date: January 1, 2026
+shinpan_registration_deadline: April 18th, 2026
+entry_fee: $100 per participant
 
 # If venue_determined is false ensure tournament_location_city_state above is correct because that will be displayed
 venue_determined: true
 
 # These fields are only displayed if venue_determined = true
-venue_address_1: O'rena at Oakland University
-venue_address_2: 569 Pioneer Drive
-venue_address_3: Rochester, MI 48309
-venue_address_4: <a href="https://goo.gl/maps/guWzksg2bF5v1i2R8" target="blank">Google Maps</a> /  <a href="http://oakland.edu" target="blank">Oakland University</a>
+venue_address_1: University of Nevada, Las Vegas
+venue_address_2: Student Rec and Wellness Center (SRWC)
+venue_address_3: 4505 S Maryland Pkwy, Las Vegas, NV 89119
+venue_address_4: <a href="https://maps.app.goo.gl/ZEqWc8Y5n3MvGc4CA" target="blank">Google Maps</a>
 
 # assets/banner.jpg
 # desciption is of $description by
-banner_url: https://pixabay.com/photos/monument-statue-detroit-3736541/
-banner_description: the Russell A. Alger Memorial Fountain
-banner_photographer: Alberto Adán
+banner_url: https://pixabay.com/photos/nevada-las-vegas-las-vegas-sign-932708/
+banner_description: Nevada Las Vegas Sign
+banner_photographer: tookapic
 
 # If show_save_the_date is true ensure {{ site.tournament_year }}-welcome.pdf exists in the assets folder
 show_save_the_date: false

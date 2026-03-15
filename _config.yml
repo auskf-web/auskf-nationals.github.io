@@ -10,6 +10,9 @@ url: "http://locahost:4000" # the base hostname & protocol for your site
 
 markdown: kramdown
 
+exclude:
+  - CLAUDE.md
+
 # Tournament configuration
 tournament_year: 2026
 tournament_date: July 3 - July 5, 2026

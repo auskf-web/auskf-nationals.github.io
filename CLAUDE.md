@@ -21,6 +21,8 @@ The site runs at `http://localhost:4000` by default.
 
 This is a static Jekyll site for the AUSKF National Kendo Championships, deployed via GitHub Pages.
 
+**`CLAUDE.md` is excluded from Jekyll builds** via `exclude` in `_config.yml` — necessary because Jekyll would otherwise try to process the Liquid syntax examples it contains.
+
 **Tournament configuration** is centralized in `_config.yml`. Almost all year-to-year updates (dates, venue, fees, deadlines) happen there via Liquid variables like `{{ site.tournament_year }}`, `{{ site.tournament_date_with_day }}`, etc. Pages reference these variables throughout.
 
 **Layouts:**

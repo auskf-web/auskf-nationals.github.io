@@ -1,6 +1,6 @@
 ## auskf-nationals.github.io
 
-A [Jekyll-powered][1] website for the AUSKF National Championships 2017. Please visit [www.auskf-nationals.com][2] to learn more about this event.
+A [Jekyll-powered][1] website for the AUSKF National Championships. Please visit [www.auskf-nationals.com][2] to learn more about this event.
 
 Design adapted from:
 * Twenty by [HTML5 UP][3]

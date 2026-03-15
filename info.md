@@ -5,65 +5,24 @@ title: Info
 
 This page contains information on:
 {: style="margin-bottom: 0"}
-<div markdown="1" class="indented">
-- [Key Info PDF](#pdf)
-- [Tournament Schedule](#date)
-- [Location](#location)
-- [Note on age restrictions](#age)
-- [Tournament format](#format)
-- [Shiai Rules](#rules)
-- [Food and beverages](#bento)
-- [Shinai Check-In](#shinai)
-- [Provisional COVID-19 Rules](#covid)
-- [Additional questions?](#questions)
-</div>
+[Date](#date)  
+[Location](#location)  
+[Individual Divisions](#individual)  
+[Team Divisions](#team)  
+[Player Eligibility](#eligibility)  
+[Registration](#registration)  
+[Tournament Schedule](#schedule)  
+[Shiai Rules](#rules)  
+[Food and Beverages](#food)  
+[Shinpan](#shinpan)  
+[Additional questions?](#questions)  
 
-### Key Info PDF {#pdf}
-<div markdown="1" class="indented">
-Coming soon we will provide a PDF that covers key information for the AUSKF Nationals {{ site.tournament_year }}.
-</div>
-
-### Tournament Schedule {#date}
-<div markdown="1" class="indented">
-Tournament Dates: {{ site.tournament_date_with_day }}
-
-**Thursday, June 29th**
-{: style="margin-bottom: 0"}
-- Shinpan Seminar (3:00 PM - 5:00 PM)
-- Coach's Meeting (5:30 PM - 7:00 PM)
-
-**Friday, June 30th**
-{: style="margin-bottom: 0"}
-- Opening Ceremony (8:30 AM start)
-- Senior Men's Individual
-- Senior Team
-- Mudansha Individual and Team
-- Junior Girl's Individual and Team
-- Junior Boy's Individual and Team
-- Senior Girl's Individual and Team
-- Senior Boy's Individual and Team
-- Friday Divisions Award Ceremony
-
-**Saturday, July 1st**
-{: style="margin-bottom: 0"}
-- Opening Ceremony (9:00 AM start)
-- Senior Women's Individual
-- Women's Individual
-- Men's Individual
-- Saturday Divisions Award Ceremony
-
-**Sunday, July 2nd**
-{: style="margin-bottom: 0"}
-- Opening Ceremony (9:00 AM start)
-- Women's Team
-- Men's Team
-- Closing Ceremony
-
-**Sayonara Party to be held Sunday, July 2nd**
-</div>
+### Date {#date}
+Tournament: {{ site.tournament_date_with_day }}  
+Manager's Meeting: July 2, 2026 (Thursday evening)  
+Sayonara Party: July 5, 2026 (Sunday evening)
 
 ### Location {#location}
-<div markdown="1" class="indented">
 {% if site.venue_determined == true -%}
 {{ site.venue_address_1 }}  
 {{ site.venue_address_2 }}  
@@ -73,71 +32,92 @@ Tournament Dates: {{ site.tournament_date_with_day }}
 Venue TBD  
 {{ site.tournament_location_city_state }}
 {% endif %}
-</div>
 
-### Note on age restrictions {#age}
-<div markdown="1" class="indented">
-January 1, {{ site.tournament_year }} will be the date for all birthdates. Your age on January 1, {{ site.tournament_year }} will be your age for the tournament.
-</div>
+Sayonara Party: Golden Nugget
 
-### Tournament format {#format}
-<div markdown="1" class="indented">
 
-**Individual Divisions** - restrictions for each division, if any, are within parentheses
+### Individual Divisions {#individual}
+
+| Division | Age Restriction | Rank Restriction | Max Registered / Federation |
+|----------|-----------------|------------------|-----------------------------|
+| Men | No restriction | No restriction | 7 |
+| Women | No restriction | No restriction | 7 |
+| Senior Youth Boy | 16-18 years old | No restriction | 5 |
+| Senior Youth Girl | 16-18 years old | No restriction | 5 |
+| Junior Youth Boy | 12-15 years old | No restriction | 5 |
+| Junior Youth Girl | 12-15 years old | No restriction | 5 |
+| Senior Men | 50 years or older | 3 dan or above | 5 |
+| Senior Women | 45 years or older | 3 dan or above | 5 |
+| Mudansha Open | 19 years or older | 1 kyu or below | 5 |
+
+**Note:** Age restrictions are based on age as of January 1, {{ site.tournament_year }}. Rank restrictions are based on rank on the day of the tournament.
+
+
+### Team Divisions {#team}
+
+All age and rank restrictions listed in individual divisions above apply to corresponding team participants. Each federation may submit 1 team for each division.
+
+| Division | Max Registered | Team Size |
+|----------|----------------|-----------|
+| Men | 7 | 5 |
+| Women | 7 | 5 |
+| Senior Youth Boy | 5 | 3 |
+| Senior Youth Girl | 5 | 3 |
+| Junior Youth Boy | 5 | 3 |
+| Junior Youth Girl | 5 | 3 |
+| Senior Men & Women | 5 | 3 |
+| Mudansha Men & Women | 5 | 3 |
+
+### Player Eligibility {#eligibility}
+{: style="margin-top: 2em"}
+All competitors must be on the registration census of the member in good standing one year prior to the tournament and their dues paid by March 31 of the tournament year.  
+
+Competitors in the following divisions must be on the registration census of the member in good standing for 3 years prior to the tournament:
 {: style="margin-bottom: 0"}
-- **Men's Individual** - max 7 registered participants
-- **Women's Individual** - max 7 registered participants
-- **Senior Youth Boy's Individual (ages 16-18)** - max 5 registered participants
-- **Junior Youth Boy's Individual (ages 12-15)** - max 5 registered participants
-- **Senior Youth Girl's Individual (ages 16-18)** - max 5 registered participants
-- **Junior Youth Girl's Individual (ages 12-15)** - max 5 registered participants
-- **Seniors Men's (ages 50+, 3-dan and up)** - max 5 registered participants
-- **Seniors Women's (ages 45+, 3-dan and up)** - max 5 registered participants
-- **Mudansha Division (men+women combined division, ages 19+, 1 kyu and lower)** - max 5 registered participants
+- Men's Individual
+- Women's Individual
+- Men's Team
+- Women's Team
 
-**Team Divisions** - federations can register only one team
-{: style="margin-bottom: 0"}
-- **Men's Team** - 5 participants, max 7 registered team members
-- **Women's Team** - 5 participants, max 7 registered team members
-- **Senior Youth Boy's Team** - 3 participants, max 5 registered team members
-- **Junior Youth Boy's Team** - 3 participants, max 5 registered team members
-- **Senior Youth Girl's Team** - 3 participants, max 5 registered team members
-- **Junior Youth Girl's Team** - 3 participants, max 5 registered team members
-- **Senior's Team** - 3 participants, max 5 registered team members
-- **Mudansha Team** - 3 participants, max 5 registered team members
+Each player is only eligible to play in 1 individual and 1 team division max. See Appendix B for additional details.
 
-**Cost** - for each participant registered in the individual division there is a registration fee of **$100**. For each participant registered for the team divisions, there is a registration fee of **$100**. So if a player is registered for an individual and a team division the total registration fee for that participant will be $200.
-</div>
+
+### Registration {#registration}
+For each participant registered in the individual division there is a registration fee of **$100**. For each participant registered for the team divisions, there is a registration fee of **$100**.  
+
+In the case of a player being registered for both an individual and team division, the total registration fee for that player will be **$200**.
+
+
+### Tournament Schedule {#schedule}
+*Subject to change based on number of competitors*
+
+| Friday | Saturday | Sunday |
+|--------|----------|--------|
+| **Individual**<br>Senior Men<br>Senior Women<br>Mudansha<br>Junior Youth Boys<br>Junior Youth Girls<br><br>**Team**<br>Seniors<br>Mudansha | **Individual**<br>Men<br>Women<br>Senior Youth Boys<br>Senior Youth Girls<br><br>**Team**<br>Junior Youth Boys<br>Junior Youth Girls | **Team**<br>Men<br>Women<br>Senior Youth Boys<br>Senior Youth Girls |
+
 
 ### Shiai Rules {#rules}
-<div markdown="1" class="indented">
-At this time, we are planning to implement the provisional shiai rules as established by the All Japan Kendo Federation. Please see the [Provisional COVID-19 Rules section](#covid) for more details.
+{: style="margin-top: 2em"}
+Unless otherwise stated, all matches will follow FIK Rules and Regulations. We will continue to use the Provisional rules as set forth by FIK.
 
-Policy and Procedures Appendix B section 15.02.00 states: All competitors must be on the registration census of the member in good standing one year prior to the tournament and their dues paid by March 31st of the tournament year.
+All individual championships will utilize a "double-elimination" seeding format in which each player participates in an initial "seeding" round to determine their placement (either first or second) in the championship round. In the event there is an odd number of participants, a random participant shall be automatically placed in the seeding round.
 
-Competitors in the following divisions must be a registered AUSKF member in good standing for three (3) years prior to the date of the 2023 AUSKF National Championships: Men's Individual, Men's Team, Women's Individual, Women's Team.
+Men's and Women's teams will utilize a "double elimination" seeding format in which each team participates in an initial "seeding" round to determine their placement (either first or second) in the championship round. In the event of an odd number of teams, one seed group will have an additional team.
 
-All individual championships will utilize a "double-elimination" seeding format in which each player participates in an initial "seeding" round to determine their placement (either first or second) in the championship round. In the case of an odd number of participants, we have created 3-person "pools" to provide every competitor with the opportunity to participate in a seeding round before the elimination tournament. See the rules pdf linked below for details.
 
-In addition to what is listed above, please refer to the linked PDF for all rules including time limits, nito and jodan restrictions, and tie-breaker procedures: [2023 AUSKF Championships Rules and Regulations](https://drive.google.com/file/d/1nfDf8SctQgrwyQnx23CQJq5uSRf_KSit/view?usp=sharing).
-</div>
+### Food and Beverages {#food}
+Lunch can be pre-ordered for each of the three days of competition (Friday - Sunday). Each lunch costs **$18 per day** (e.g. a competitor requesting lunch for all three days will pay **$54**). Beverages will be included with lunch.
 
-### Food and beverages {#bento}
-<div markdown="1" class="indented">
-**Bento boxes** can be pre-ordered for each of the {{ site.number_of_days_order_bento }} days of competition ({{ site.range_of_days_for_bento }}). Each **bento costs {{ site.cost_bento_per_day }} per day** (e.g. a competitor requesting a bento for all {{ site.number_of_days_order_bento }} days will pay {{ site.cost_bento_if_all_days }} for bento). Beverages will not be provided.
-</div>
+Lunch will be served at the UNLV Dining Commons (4 min walk from the tournament venue) and will include vegetarian and gluten-free options.
 
-### Shinai Check-In {#shinai}
-<div markdown="1" class="indented">
-Competitor's shinais for the AUSKF National Championships must be inspected and certified before the competition to ensure they meet a specific set of requirements. Please refer to this [PDF](https://drive.google.com/file/d/1PeAGMry8BS8wDyQZ8ONSzx-xSiZizSrA) that describes all measurements that will be verified by the shinai check-in staff.
-</div>
 
-### Provisional COVID-19 Rules {#covid}
-<div markdown="1" class="indented">
-Rules from the International Kendo Federation (FIK) regarding COVID-19 are available [here](https://drive.google.com/file/d/1d54xH4qP03_DaO-tO2FcDiRQ7BKULZZd). You can review a video explanation of the provisional rules [on YouTube](https://www.youtube.com/watch?v=vh16yyWhzXY).
-</div>
+### Shinpan {#shinpan}
+Regional federations are asked to nominate qualified shinpan by {{ site.shinpan_registration_deadline }}. Qualified shinpan are defined as 5 dan and above, in good standing with AUSKF, and recommended by their federation president.
+
+Selected shinpan will be provided hotel accommodations at the headquarters hotel from July 2-6, 2026, and a travel stipend of $600.
+
+Shinpan should plan to arrive on July 2nd, 2026 by 5 PM and depart no earlier than July 6, 2026.
+
 
 ### Additional questions? {#questions}
-<div markdown="1" class="indented">
 Please email [competition@auskf.org](mailto:competition@auskf.org?Subject=AUSKF%20Nationals%20{{ site.tournament_year }}) with any questions or concerns. Thank you!
-</div>

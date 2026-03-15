@@ -112,6 +112,15 @@
 		padding: 0 0 0 2em;
 	}
 
+	.content .indented ul, .content .indented ol {
+		list-style: disc;
+		padding-left: 2em;
+	}
+
+	.content .indented ol {
+		list-style: decimal;
+	}
+
 /* Section/Article */
 
 	section.special, article.special {

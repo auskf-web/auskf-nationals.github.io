@@ -1,11 +1,9 @@
 # Site settings
 title: AUSKF Nationals
 
-email: web@auskf-nationals.com
-
 description: > # this means to ignore newlines until "baseurl:"
   Official website for the AUSKF National Championships
-  
+
 baseurl: ""
 
 url: "http://locahost:4000" # the base hostname & protocol for your site
@@ -17,9 +15,7 @@ tournament_year: 2026
 tournament_date: July 3 - July 5, 2026
 tournament_date_with_day: Friday, July 3, 2026 - Sunday, July 5, 2026
 tournament_location_city_state: Las Vegas, NV
-age_deterimination_date: January 1, 2026
 shinpan_registration_deadline: April 18th, 2026
-entry_fee: $100 per participant
 
 # If venue_determined is false ensure tournament_location_city_state above is correct because that will be displayed
 venue_determined: true
@@ -31,16 +27,7 @@ venue_address_3: 4505 S Maryland Pkwy, Las Vegas, NV 89119
 venue_address_4: <a href="https://maps.app.goo.gl/ZEqWc8Y5n3MvGc4CA" target="blank">Google Maps</a>
 
 # assets/banner.jpg
-# desciption is of $description by
+# description is of $description by
 banner_url: https://pixabay.com/photos/nevada-las-vegas-las-vegas-sign-932708/
 banner_description: Nevada Las Vegas Sign
 banner_photographer: tookapic
-
-# If show_save_the_date is true ensure {{ site.tournament_year }}-welcome.pdf exists in the assets folder
-show_save_the_date: false
-
-# Bento
-number_of_days_order_bento: three
-range_of_days_for_bento: Friday - Sunday
-cost_bento_per_day: $15
-cost_bento_if_all_days: $45

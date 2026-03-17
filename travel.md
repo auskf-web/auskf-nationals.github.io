@@ -11,8 +11,11 @@ Harry Reid International Airport (LAS)
 ### Headquarters Hotel
 <div markdown="1" class="indented">
 **Golden Nugget**  
-AUSKF has a room block available with a group rate now through June 2, 2026.  
-Use this link (coming soon) to reserve rooms.  
+AUSKF has a room block available with a group rate now through June 2, 2026.
+Use the below info to reserve rooms:
+Group Name: AUSKF 2026 NATIONALS
+Group Code: GRAUS26
+[Online booking](https://goldennugget.book.pegsbe.com/promo?offerCode=GRAUS26&hotel=GNLV)
 Room bookings are for Thursday July 2, 2026 - Monday July 6, 2026.
 </div>
 

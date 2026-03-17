@@ -18,8 +18,8 @@ This page contains information on:
 [Additional questions?](#questions)  
 
 ### Date {#date}
-Tournament: {{ site.tournament_date_with_day }}  
-Manager's Meeting: July 2, 2026 (Thursday evening)  
+Tournament: Friday, July 3, 2026 - Sunday, July 5, 2026  
+Manager's Meeting: July 2, 2026 (4 PM)  
 Sayonara Party: July 5, 2026 (Sunday evening)
 
 ### Location {#location}
@@ -112,11 +112,11 @@ Lunch will be served at the UNLV Dining Commons (4 min walk from the tournament 
 
 
 ### Shinpan {#shinpan}
-Regional federations are asked to nominate qualified shinpan by {{ site.shinpan_registration_deadline }}. Qualified shinpan are defined as 5 dan and above, in good standing with AUSKF, and recommended by their federation president.
+Regional federations are asked to nominate qualified shinpan by April 18, 2026. Qualified shinpan are defined as 5 dan and above, in good standing with AUSKF, and recommended by their federation president.
 
-Selected shinpan will be provided hotel accommodations at the headquarters hotel from July 2-6, 2026, and a travel stipend of $600.
+Selected shinpan will be provided hotel accommodations at the headquarters hotel from July 2-6, 2026, and a travel stipend of $600. Hotel accommodations provided will be double occupancy reserved by the AUSKF competition committee.
 
-Shinpan should plan to arrive on July 2nd, 2026 by 5 PM and depart no earlier than July 6, 2026.
+Shinpan should plan to arrive on July 2nd, 2026 in time to attend a 4 PM shinpan meeting at the venue. Shinpan should plan to depart no earlier than July 6, 2026.
 
 
 ### Additional questions? {#questions}

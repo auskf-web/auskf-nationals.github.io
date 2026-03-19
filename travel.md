@@ -15,7 +15,7 @@ AUSKF has a room block available with a group rate now through June 2, 2026.
 Use the below info to reserve rooms:  
 Group Name: AUSKF 2026 NATIONALS  
 Group Code: GRAUS26  
-[Online booking](https://goldennugget.book.pegsbe.com/promo?offerCode=GRAUS26&hotel=GNLV)  
+[Online booking](https://goldennugget.book.pegsbe.com/promo?offerCode=GRAUS26&hotel=GNLV) or call 1-800-331-5731  
 Room bookings are for Thursday July 2, 2026 - Monday July 6, 2026.
 </div>
 

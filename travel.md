@@ -21,13 +21,10 @@ Room bookings are for Thursday July 2, 2026 - Monday July 6, 2026.
 
 ### Additional Hotels
 <div markdown="1" class="indented">
-**Embassy Suites**  
-Group Name: 2026 AUSKF Nationals  
-Group Dates: Thursday July 2, 2026 - Monday July 6, 2026  
-[Reserve rooms](https://book.passkey.com/e/51216330)  
-Discounted room rates with breakfast, Wi-Fi and a lower parking rate. No resort fee.  
-Please see the hotel website for a full list of amenities.  
-Limited availability. Cutoff date: June 2, 2026.
+**Embassy Suites Convention Center**  
+Discounted room rates that include made to order breakfast buffet daily for all room occupants. Manager's Reception daily with 2 complimentary drinks per day, complimentary Wi-Fi in guest rooms, complimentary fitness center admission, indoor pool, complimentary local shuttle service. First come, first serve for the following route: Hotel to West & North/Central Halls at the Las Vegas Convention Center, Convention Center Monorail Station/South Halls and the Fashion Show Mall, before returning to the Hotel.
+
+Children under the age of 17 stay complimentary. Self-parking is $18.00 per day.
 
 **UNLV Campus Housing**  
 Jesher Espinosa  

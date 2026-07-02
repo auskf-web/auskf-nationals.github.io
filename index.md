@@ -2,6 +2,8 @@
 layout: landing-page
 ---
 
+[Full Schedule](https://docs.google.com/spreadsheets/d/1CCWGxJjMIzq8kkwW0i8pVyKh7rMLr39kZxtcLfwJPFU/edit?usp=sharing)
+
 **Dates**  
 **{{ site.tournament_date_with_day }}** - Tournament
 

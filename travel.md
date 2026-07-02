@@ -23,7 +23,7 @@ Room bookings are for Thursday July 2, 2026 - Monday July 6, 2026.
 <div markdown="1" class="indented">
 **Embassy Suites Convention Center**  
 Group Name: 2026 AUSKF Nationals  
-Group reservation link: https://book.passkey.com/e/51216330  
+Group reservation link: [https://book.passkey.com/e/51216330](https://book.passkey.com/e/51216330)  
 Group Dates: Thursday July 2, 2026 - Monday July 6, 2026  
 Discounted room rates that include made to order breakfast buffet daily for all room occupants. Manager's Reception daily with 2 complimentary drinks per day, complimentary Wi-Fi in guest rooms, complimentary fitness center admission, indoor pool, complimentary local shuttle service. First come, first serve for the following route: Hotel to West & North/Central Halls at the Las Vegas Convention Center, Convention Center Monorail Station/South Halls and the Fashion Show Mall, before returning to the Hotel.
 

@@ -3,8 +3,107 @@ layout: inner-page
 title: Past Results
 ---
 
+- [2026](#y2026)
 - [2023](#y2023)
 - [2017](#y2017)
+
+## 2026 {#y2026}
+**16th All United States Kendo Championships**  
+Las Vegas, Nevada, July 3, 2026 - July 5, 2026  
+
+**Mens**  
+**1st** Branden Wang (WKF)  
+**2nd** Satoshi Kubo (AEUSKF)  
+**3rd** Alistair Faghani (GNEUSKF), Taiyo Ariga (SCKO)  
+**Kantosho** Kei Takahashi (AEUSKF), Arashi Steele (SCKF), Riku Ido (SCKO), Travis Hill (MWKF)  
+
+**Womens**  
+**1st** Kanon Saito (SCKF)  
+**2nd** Ai Matsumoto (MWKF)  
+**3rd** Yukiko Miura (SCKO), Allyson Dong (SCKF)  
+**Kantosho** Rika Iketani (SCKO), Isabel Lorimer (SCKO), Zidi Allison (SCKF), Eri Kosakaya (AEUSKF)  
+
+**Mudansha**  
+**1st** Daisuke Hanaoka (SCKF)  
+**2nd** Sharif Saeed (SEUSKF)  
+**3rd** Ryan Tokumoto (SCKF), Mori Fukunaga-Taylor (SCKF)  
+**Kantosho** Eriz Sartiga (NCKF), Timur Sukhanov (MWKF), Michael Fontana (PNKF), Daniel Chae (GNEUSKF)  
+
+**Senior Men**  
+**1st** Hayato Okawa (SCKO)  
+**2nd** Hajime Sugawara (MWKF)  
+**3rd** Yutaro Matsuura (MWKF), Taro Ariga (SCKO)  
+**Kantosho** InMyung Song (SWKIF), Kazunori Kobayashi (SCKF), Joshua Caroll (AEUSKF), Kenichi Hatakeyama (SWKIF)  
+
+**Senior Women**  
+**1st** Akiyo Kawamura (NCKF)  
+**2nd** Joyce Hwang (WKF)  
+**3rd** Satoko Kurosaki (SWKIF), Miyun Kang (NCKF)  
+**Kantosho** Misao Kono-Grivas (AEUSKF), Noriko Towata (SCKF), Stefani Lee (WKF), Shinobu Hashimoto (NCKF)  
+
+**Senior Youth Girls Individual**  
+**1st** Lynn Uemoto (AEUSKF)  
+**2nd** Bailey Shinada (SCKF)  
+**3rd** Alba Ueno (SCKO), Erena Hoshi (SCKO)  
+**Kantosho** Mai Sakamoto (SCKO), Colleene Chang (SCKF), Abigail Westblade (SEUSKF), Kanon Sawabe (SCKO)  
+
+**Senior Youth Boys Individual**  
+**1st** Luke Ido (SCKO)  
+**2nd** Nathan Park (WKF)  
+**3rd** Yuta Onitsuka (NCKF), Taichi Matsuura (MWKF)  
+**Kantosho** Mooyong Kim (WKF), Geonhee Lee (SEUSKF), Ken Uemoto (AEUSKF), Yoshihiko Shimada (SCKO)  
+
+**Junior Youth Girls**  
+**1st** Clara Kim (PNKF)  
+**2nd** Siwoo Kim (WKF)  
+**3rd** Zoey Shinada (SCKF), Kathleen Ahn (WKF)  
+**Kantosho** Isla Park (WKF), Suzuha Noelle Winters (AEUSKF), Abigail Tenn (SCKF), Emma Ueng (NCKF)  
+
+**Junior Youth Boys**  
+**1st** Kai Romero (SCKF)  
+**2nd** Musashi Yang (SCKF)  
+**3rd** Jack Segawa (SCKF), Enzo Musashi Miyamoto (SCKO)  
+**Kantosho** Ethan Choo (SCKF), Owen Kang (WKF), Haruhide Someya (NCKF), Hayato Hoshi (SCKO)  
+
+**Mens Team**  
+**1st** SCKF  
+**2nd** SCKO  
+**3rd** SWKIF, AEUSKF  
+
+**Womens Team**  
+**1st** PNKF  
+**2nd** MWKF  
+**3rd** SCKF, AEUSKF  
+
+**Senior Team**  
+**1st** MWKF  
+**2nd** SCKO  
+**3rd** SEUSKF, AEUSKF  
+
+**Mudansha Team**  
+**1st** SCKF  
+**2nd** SEUSKF  
+**3rd** NCKF, PNKF  
+
+**Senior Youth Boys Team**  
+**1st** SCKF  
+**2nd** MWKF  
+**3rd** SCKO, NCKF  
+
+**Senior Youth Girls Team**  
+**1st** SCKF  
+**2nd** SCKO  
+**3rd** WKF, MWKF  
+
+**Junior Youth Girls Team**  
+**1st** WKF  
+**2nd** NCKF  
+**3rd** SCKF, PNKF  
+
+**Junior Youth Boys Team**  
+**1st** SCKO  
+**2nd** SCKF  
+**3rd** GNEUSKF, WKF  
 
 ## 2023 {#y2023}
 **15th All United States Kendo Championships**  
